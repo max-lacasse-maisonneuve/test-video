@@ -1,0 +1,8 @@
+footer {
+    background-color: rgb(120, 178, 178);
+    text-align: center;
+    color: white;
+    flex-shrink: 0;
+    min-height: 5vh;
+    padding: 3rem;
+}

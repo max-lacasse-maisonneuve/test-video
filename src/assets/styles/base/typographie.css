@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;600;800;900&display=swap");
+
+@font-face {
+    font-family: "Evil Empire";
+    src: local("Evil Empire"), url("../../font/evil_empire/Evil\ Empire.otf");
+}
+
+:root {
+    --police-principale: Barlow, sans-serif;
+    --police-accent: "Evil Empire", sans-serif;
+    --police-xs: 0.8rem;
+    --police-s: 1rem;
+    --police-m: 1.25rem;
+    --police-l: 1.5rem;
+    --police-xl: 2rem;
+    --police-xxl: 3rem;
+    --police-xxxl: 5rem;
+}
+
+h1 {
+    font-family: var(--police-accent);
+    font-size: var(--police-l);
+}

@@ -1,0 +1,20 @@
+:root {
+    --couleur-noir: #000000;
+    --couleur-blanc: #ffffff;
+
+    --couleur-principale__fonce: #ff0000;
+    --couleur-principale: #ff0000;
+    --couleur-principale__pale: #ff0000;
+
+    --couleur-accent__fonce: #ff0000;
+    --couleur-accent: #ff0000;
+    --couleur-accent__pale: #ff0000;
+
+    --couleur-info: #ff0000;
+    --couleur-succes: #ff0000;
+    --couleur-alerte: #ff0000;
+    --couleur-erreur: #ff0000;
+
+    --couleur-inactif: #ff0000;
+    --couleur-survol: #ff0000;
+}

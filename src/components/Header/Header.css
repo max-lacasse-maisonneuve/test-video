@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    flex-shrink: 0;
+    min-height: 5vh;
+    padding: 3rem;
+
+    nav {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    a {
+        color: white;
+    }
+    a.active {
+        color: hotpink;
+    }
+}

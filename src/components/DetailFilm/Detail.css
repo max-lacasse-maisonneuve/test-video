@@ -1,0 +1,14 @@
+.detail {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    margin: 0 auto;
+    gap: 2rem;
+    & img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}

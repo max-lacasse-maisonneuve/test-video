@@ -1,0 +1,10 @@
+:root {
+    --espace-xxs: 0.25rem;
+    --espace-xs: 0.5rem;
+    --espace-s: 1rem;
+    --espace-m: 2rem;
+    --espace-l: 4rem;
+    --espace-xl: 8rem;
+    --espace-xxl: 16rem;
+    --espace-xxxl: 32rem;
+}

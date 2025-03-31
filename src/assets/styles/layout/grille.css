@@ -1,0 +1,17 @@
+.grille {
+    display: flex;
+    flex-wrap: wrap;
+
+    & .grille__item {
+        flex: 1 1 100%;
+        padding: 1rem;
+
+        @media (min-width: 768px) {
+            flex: 1 1 50%;
+        }
+
+        @media (min-width: 1024px) {
+            flex: 1 1 33.3333%;
+        }
+    }
+}
