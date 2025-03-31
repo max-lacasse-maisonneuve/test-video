@@ -8,6 +8,8 @@ function Accueil() {
                 <title>Ma page d'accueil</title>
             </Helmet>
             Accueil
+            {import.meta.env.VITE_MODE == "Dev" && import.meta.env.VITE_URL_DEV}
+            {import.meta.env.VITE_MODE == "Prod" && import.meta.env.VITE_URL_PROD}
         </div>
     );
 }
